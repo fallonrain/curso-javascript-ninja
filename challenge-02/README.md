@@ -23,15 +23,15 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
 Onde VALOR é o novo valor da variável.
 */
 function addvalor () {
-novar =
-return ' o valor da variavel agora e ' + 10
+novar = 10;
+return 'o valor da variavel agora e ' + novar;
 }
 
 // Invoque a função criada acima.
-?
+novar
 
 // Qual o retorno da função? (Use comentários de bloco).
-?
+o valor da variavel agora e 10
 
 /*
 Crie uma função com as seguintes características:
@@ -40,10 +40,14 @@ Crie uma função com as seguintes características:
     Preencha todos os valores corretamente!
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
-?
+function multi ( x, y, z) {
+return x * y * z;
+if z = NaN
+return ' preencha todos os valores corretamente!'
+}
 
 // Invoque a função criada acima, passando só dois números como argumento.
-?
+var multi1 = multi(2, 3, 4) + 2 
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 ?
