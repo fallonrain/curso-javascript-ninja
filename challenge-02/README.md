@@ -15,15 +15,16 @@ var soma1 = soma (10, 10);
 20
 
 // Declare uma nova variável, sem valor.
-var novar
+var novar;
 
 /*
 Crie uma função que adicione um valor à variável criada acima, e retorne a string:
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-function addvalor (x) {
-return x = VALOR
+function addvalor () {
+novar =
+return ' o valor da variavel agora e ' + 10
 }
 
 // Invoque a função criada acima.
